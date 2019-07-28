@@ -44,6 +44,7 @@
         <b-col cols="1">
           🗡️
         </b-col>
+        <b-col cols="1">{{attack}}</b-col>
         <b-col>
           <b-form-input v-model="attack" type="range" min="0" max="15" number></b-form-input>
         </b-col>
@@ -52,6 +53,7 @@
         <b-col cols="1">
           🛡️
         </b-col>
+        <b-col cols="1">{{defense}}</b-col>
         <b-col>
           <b-form-input v-model="defense" type="range" min="0" max="15" number></b-form-input>
         </b-col>
@@ -60,6 +62,7 @@
         <b-col cols="1">
           ❤️
         </b-col>
+        <b-col cols="1">{{health}}</b-col>
         <b-col>
           <b-form-input v-model="health" type="range" min="0" max="15" number></b-form-input>
         </b-col>

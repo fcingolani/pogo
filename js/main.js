@@ -9,9 +9,9 @@ let app = new Vue({
   el: '#app',
   data: {
     message: 'Hello Vue!',
-    attack: 5,
-    defense: 5,
-    health: 5,
+    attack: 0,
+    defense: 0,
+    health: 0,
   },
 
   mounted() {
